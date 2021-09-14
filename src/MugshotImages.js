@@ -18,7 +18,7 @@ const MugshotImages = () => {
             <div className="allImages">
                 {
                     mugshotImages.length > 0 && mugshotImages.map((element, index) => {
-                        const imagePath = element.slice(50)
+                        const imagePath = element.slice(54)
                         return <img src={imagePath} key={index} alt=""/>
                     })
                 }
@@ -26,5 +26,5 @@ const MugshotImages = () => {
         </div>
     );
 }
- 
+
 export default MugshotImages;

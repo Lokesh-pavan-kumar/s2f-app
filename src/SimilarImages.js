@@ -60,7 +60,7 @@ const SimilarImages = () => {
             <div className="similarImages"> 
                 {
                     similarImages.length > 0 && similarImages.map((element, index) => {
-                        const imagePath = element[1].slice(50)
+                        const imagePath = element[1].slice(54)
                         return <img src={imagePath} key={index} alt=""/>
                     })
                 }
