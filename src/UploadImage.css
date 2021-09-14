@@ -1,0 +1,18 @@
+
+
+.uploadContainer {
+    margin: 0 auto;
+    display: flex;
+    width: 40%;
+}
+
+.leftBox {
+    width: 50%;
+}
+
+.rightBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

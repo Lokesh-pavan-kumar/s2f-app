@@ -1,0 +1,8 @@
+
+.similarImages img{
+    margin: 1% 0.5% 1% 0.5%;
+    padding: 1% 1% 1% 1%;
+    width: 8vw;
+    height: 10vw;
+    border: 1px solid black;
+}

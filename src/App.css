@@ -1,0 +1,59 @@
+.App {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Options {
+  display: flex;
+  justify-content: space-around;
+  margin: 8vh 24vw 8vh 24vw;
+}
+
+.Option {
+  border-radius: 50px;
+  border: none;
+  background-color: #90a9af;
+  width: 16vw;
+  height: 8vh;
+  font-size: 1vw;
+}
+
+.Option:hover {
+  border: 3px solid rgb(12, 65, 95);
+  cursor: pointer;
+}
